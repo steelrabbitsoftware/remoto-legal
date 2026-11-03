@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark" />
+  <title>Remote Control RC — Política de Privacidade</title>
+  <style>
+    html { color-scheme: dark;
+      background:
+        radial-gradient(120% 80% at 12% 0%, rgba(79,156,255,0.20), transparent 55%),
+        radial-gradient(120% 90% at 92% 100%, rgba(255,196,77,0.12), transparent 55%),
+        linear-gradient(165deg, #0d1118, #161d2b);
+      background-attachment: fixed; min-height: 100%; }
+    body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+      max-width: 720px; margin: 0 auto; min-height: 100vh;
+      padding: 30px 20px calc(44px + env(safe-area-inset-bottom));
+      line-height: 1.65; color: #d9dfea; background: transparent; }
+    h1 { font-size: 25px; line-height: 1.2; margin: 0 0 6px; font-weight: 800;
+      background: linear-gradient(90deg,#4f9cff,#ffc44d);
+      -webkit-background-clip: text; background-clip: text; color: transparent; }
+    .updated { color: #9aa6bd; font-size: 13px; margin: 0 0 22px; }
+    h2 { font-size: 18px; margin: 30px 0 8px; color: #ffc44d; }
+    p, li { color: #d9dfea; font-size: 15px; }
+    b, strong { color: #ffffff; }
+    a { color: #7cc4ff; text-decoration: underline; text-underline-offset: 2px; }
+    ul { padding-left: 20px; } li { margin: 5px 0; }
+    .box { background: rgba(255,255,255,0.06); border: 1px solid rgba(255,255,255,0.10);
+      border-left: 4px solid #ffc44d; border-radius: 12px; padding: 14px 16px; font-size: 15px; }
+    hr { border: 0; border-top: 1px solid rgba(255,255,255,0.12); margin: 40px 0; }
+  </style>
+</head>
+<body>
+  <h1>Política de Privacidade — Remote Control RC Controle TV</h1>
+  <p class="updated">Última atualização: 3 de novembro de 2026 · Versão 1.0 · <a href="#en">English below</a></p>
+
+  <div class="box">
+    <b>Resumo em uma frase:</b> o app conversa <b>somente com as TVs da sua casa, pela sua rede
+    Wi-Fi</b>. Ele <b>não coleta, não envia e não vende nenhum dado seu</b>: não tem conta,
+    anúncios, medição de uso nem servidor nosso.
+  </div>
+
+  <h2>1. Quem somos</h2>
+  <p>O app é desenvolvido pela <b>Steel Rabbit Software</b> (Intract Studio). Para fins da Lei
+  Geral de Proteção de Dados (Lei nº 13.709/2018 — "LGPD"), o contato do controlador é
+  <b>techrabit99@gmail.com</b>.</p>
+
+  <h2>2. Quais dados ficam no seu aparelho</h2>
+  <p>Para controlar a sua TV, o app guarda <b>somente no armazenamento do seu aparelho</b>:</p>
+  <ul>
+    <li>a lista das TVs que você conectou: nome da TV, marca, endereço na rede local (IP),
+    número de série e endereço físico de rede (MAC), usado para ligar a TV pelo celular;</li>
+    <li>a autorização de pareamento que a TV dá ao app (quando você escolhe "Permitir" ou
+    digita o código mostrado na TV). Ela fica <b>cifrada</b> com uma chave guardada no cofre de
+    chaves do Android (Android Keystore);</li>
+    <li>preferências do app, como a última TV usada.</li>
+  </ul>
+  <p>Esses dados <b>nunca saem do aparelho</b>: não existe servidor nosso, cópia na nuvem nem
+  backup automático deles (o app exclui esses dados do backup do Android). Se você
+  desinstalar o app ou limpar os dados dele, tudo é apagado.</p>
+  <p><b>Não coletamos:</b> nome, e-mail, telefone, contatos, localização, fotos, câmera,
+  microfone, arquivos, identificador de publicidade nem histórico do que você assiste. O app
+  <b>não contém</b> SDK de anúncios, de medição (analytics) ou de rede social.</p>
+
+  <h2>3. Comunicação com a sua TV</h2>
+  <p>Os comandos (teclas, volume, ligar a TV) vão <b>direto do celular para a TV</b>, dentro da
+  sua rede local. Para encontrar as TVs, o app faz buscas na rede local (protocolos SSDP e
+  mDNS), que não saem da sua casa. Nada disso passa por servidores nossos ou de terceiros.</p>
+
+  <h2>4. Permissões do Android</h2>
+  <ul>
+    <li><b>Internet e estado da rede/Wi-Fi:</b> conversar com as TVs na rede local e saber
+    quando a rede muda, para reconectar sozinho;</li>
+    <li><b>Multicast do Wi-Fi:</b> encontrar as TVs na rede;</li>
+    <li><b>Serviço em primeiro plano (dispositivo conectado):</b> manter a conexão com a TV
+    enquanto a tela do celular está apagada;</li>
+    <li><b>Notificações:</b> mostrar "Conectado a …" enquanto o controle está ativo. Você
+    pode negar: o app continua funcionando.</li>
+  </ul>
+  <p>Nenhuma permissão dá acesso a câmera, microfone, localização, contatos, arquivos ou
+  mensagens.</p>
+
+  <h2>5. Google Play</h2>
+  <p>A instalação e as atualizações passam pelo <b>Google Play</b>, que trata os dados da sua
+  conta Google conforme a <a href="https://policies.google.com/privacy">Política de
+  Privacidade do Google</a>. O app consulta o Google Play para saber se há uma versão nova.
+  Nós recebemos do Google Play apenas números agregados (instalações, avaliações e
+  relatórios de falha que o Android envia, se você permitiu isso no aparelho).</p>
+
+  <h2>6. Crianças e adolescentes</h2>
+  <p>O app é uma ferramenta para uso geral e não é dirigido a menores de 13 anos. Como ele não
+  coleta dados pessoais, não há tratamento de dados de crianças ou adolescentes por nossa
+  parte (art. 14 da LGPD).</p>
+
+  <h2>7. Seus direitos e exclusão</h2>
+  <p>Como não guardamos dado nenhum fora do seu aparelho, não há o que acessar, corrigir ou
+  excluir do nosso lado. Para apagar tudo: Configurações do Android → Apps → Remote Control RC
+  → Armazenamento → "Limpar dados", ou desinstale o app. Dúvidas sobre os direitos do art. 18
+  da LGPD: <b>techrabit99@gmail.com</b> (respondemos em até 15 dias). Você também pode
+  peticionar à <b>ANPD</b>: <a href="https://www.gov.br/anpd">gov.br/anpd</a>.</p>
+
+  <h2>8. Alterações</h2>
+  <p>Se o app passar a ter anúncios, assinatura, login com conta Google ou qualquer coleta de
+  dados, esta política será atualizada <b>antes</b> da versão que trouxer a mudança, com a
+  data no topo.</p>
+
+  <h2>9. Contato</h2>
+  <p>Canal de atendimento ao titular e dúvidas em geral: <b>techrabit99@gmail.com</b></p>
+
+  <hr />
+
+  <h1 id="en">Privacy Policy — Remote Control RC</h1>
+  <p class="updated">Last updated: November 3, 2026 · Version 1.0</p>
+  <div class="box">
+    <b>In one sentence:</b> the app only talks to <b>the TVs in your home, over your Wi-Fi</b>.
+    It <b>does not collect, send or sell any of your data</b>: no account, no ads, no analytics,
+    no server of ours.
+  </div>
+  <h2>Data stored on your device</h2>
+  <p>Only on your device: the list of TVs you connected (name, brand, local IP address, serial
+  number and network MAC address, used to turn the TV on from your phone), the pairing
+  authorization your TV grants to the app (<b>encrypted</b> with a key kept in the Android
+  Keystore), and app preferences. This data never leaves the device and is excluded from
+  Android backup. Uninstalling the app or clearing its data deletes everything.</p>
+  <p>We do <b>not</b> collect name, email, phone, contacts, location, photos, camera,
+  microphone, files, advertising ID or viewing history. The app contains <b>no</b> ads,
+  analytics or social SDKs.</p>
+  <h2>Communication with your TV</h2>
+  <p>Commands go <b>directly from your phone to your TV</b> on your local network. TV discovery
+  uses local-network protocols (SSDP and mDNS). Nothing passes through our or third-party
+  servers.</p>
+  <h2>Permissions</h2>
+  <p>Internet and network/Wi-Fi state (talk to TVs and reconnect), Wi-Fi multicast (find TVs),
+  foreground service of type connected device (keep the connection while the screen is off),
+  notifications (optional "Connected to …" notice). No access to camera, microphone, location,
+  contacts, files or messages.</p>
+  <h2>Google Play</h2>
+  <p>Installation and updates go through Google Play, under the
+  <a href="https://policies.google.com/privacy">Google Privacy Policy</a>. The app checks Google
+  Play for new versions. We only receive aggregated numbers from Google Play.</p>
+  <h2>Children</h2>
+  <p>The app is a general-purpose utility, not directed to children under 13, and collects no
+  personal data.</p>
+  <h2>Changes and contact</h2>
+  <p>If the app ever adds ads, subscriptions, Google sign-in or any data collection, this policy
+  will be updated <b>before</b> that version ships. Contact: <b>techrabit99@gmail.com</b></p>
+</body>
+</html>
